@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1{
+    color: blueviolet;
+    background-color: beige;
+}
+
+h2{
+    color: brown;
+}
+
+p{
+    color: rgb(32, 15, 3);
+}
