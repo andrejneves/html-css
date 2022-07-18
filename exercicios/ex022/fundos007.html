@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalização de fundos</title>
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple; 
+        }
+
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px    ;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-110%, -250%);
+        }
+
+        #conteudo2 {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px    ;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(10%, -250%);
+        }
+        #conteudo3 {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px    ;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(10%, -125%);
+        }
+        #conteudo4 {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px    ;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-110%, -125%);
+        }
+    </style>
 </head>
 <body>
-    <h1>Teste de aplicação de fundos</h1>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+        <article id="conteudo2">
+
+        </article>
+        <article id="conteudo3">
+
+        </article>
+        <article id="conteudo4">
+
+        </article>
+        
+    </section>
     
 </body>
 </html>
